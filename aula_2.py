@@ -7,3 +7,6 @@ margem_lucro = lucro / faturamento
 print(f"Faturamento da empresa: R${faturamento:.2f}, Custo: R${custo:.2f}, Lucro:  R${lucro:.2f}")
 
 email_cliente = "email@gmail.com"
+# Maiusculas
+email_cliente = email_cliente.upper()
+print(email_cliente)
